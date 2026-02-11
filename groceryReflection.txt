@@ -1,0 +1,9 @@
+The method I made is called budget.
+This method takes in a double for the budget the user has for the grocery store.
+Using the getCost() method, it will compare the cost of what you already have in your cart to your budget and tell you if you are below, above or at your budget, and by how much. 
+This method enhances the code since it provides a more real life example of what you might need help with as you are in a grocery store. And, if time, I could make a function which would tell you items you could put back in order to get into your budget.
+
+One limitation for this code would be the text file with the grocery items. 
+In this file there is a fixed amount of items in there, and it not fully realistic for the amount of items that would be in a grocery store.
+To improve this you could go on a grocery store website and specialize the list for a certain store, and input all of their items.
+This would be important since it would make the code more usable for a user.
