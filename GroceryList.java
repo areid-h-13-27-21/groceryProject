@@ -123,6 +123,8 @@ public class GroceryList extends Node {
         return toRet;
     }
 
+
+    //IndexOf method for a helper method
     public int IndexOf(String item) {
         Node head1 = head;
         for (int i = 0; i < size(); i ++) {
@@ -168,7 +170,7 @@ public class GroceryList extends Node {
         return "You have bought " + toRet + "and it costs " + cost;
     }
 
-
+    //finding out if they spent above, below, or their exact budget
     public String budget(Double budget) {
         Double cost;
         try {
